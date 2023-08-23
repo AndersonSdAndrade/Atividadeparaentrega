@@ -1,0 +1,68 @@
+@import url('https://fonts.googleapis.com/css2?family=Satisfy&display=swap');
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+html
+{
+    font-size: 62.5%;
+}
+
+body{
+    display: grid;
+    height: 100vh;
+}
+body{
+    font-size: 1.6rem;
+}
+.pagina_central{
+    justify-content: space-around;
+    background-color: rgb(241, 203, 145);
+    position: relative;
+    width: 40%;
+    height: 90%;
+    left: 30%;
+    top: 1%;
+    border-radius: 5%;
+    min-width: 753px;
+
+}
+h1{
+    position: absolute;
+    left: 35%;
+    font-family: 'Satisfy', cursive;
+    top: 10%;
+    }
+
+img{
+    position: absolute;
+    width: 22%;
+    height: 20%;
+    border-radius: 100%;
+    top: 2%;
+    left: 2%;
+}
+
+ 
+   
+
+.conteudo{
+    width: 100%;
+    height: 70%;
+    position: absolute;
+    top: 30%;
+    left: 4%;
+    font-size: 1.4rem;
+    font-family: 'Times New Roman', Times, serif;
+}
+@media(max-width: 1240px)
+{
+    .pagina_central{
+        left: 5%;
+    }
+}
